@@ -1,0 +1,16 @@
+{
+  "name": "ring-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ring-client-api": "^9.20.0",
+    "rtsp-streaming-server": "^2.0.6"
+  }
+}
