@@ -35,7 +35,7 @@ function startRtspStream(camera) {
         sipSession.onCallEnded.subscribe(() => {
             console.log('Ring call has ended! Trying to reconnect in 30 seconds..');
 
-            setInterval(() => {
+            setTimeout(() => {
                 startRtspStream(camera);
             }, 1000 * 30);
         });
